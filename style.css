@@ -1,0 +1,32 @@
+body, html {
+  margin: 0;
+  overflow: hidden;
+  font-family: monospace;
+  background-color: black;
+  color: #f00;
+}
+
+canvas {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+
+.ui {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  border: 1px solid #f00;
+  color: #f00;
+}
+
+button {
+  background: black;
+  color: #f00;
+  border: 1px solid #f00;
+  margin-right: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
