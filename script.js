@@ -1,4 +1,5 @@
-import * as THREE from 'https://cdn.skypack.dev/three';
+import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.158.0/build/three.module.js';
+
 
 let scene, camera, renderer, sub;
 let log = document.getElementById('log');
